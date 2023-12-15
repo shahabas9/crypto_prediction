@@ -21,9 +21,9 @@ def get_requirement(file_path :str)-> List[str]:
 
 
 setup(
-    name="Diamond price prediction",
+    name="crypto prediction",
     version="v1.0.0",
-    author="shahabas",
+    author="shahabas & vyshanavi",
     author_email="mohdshahabasm@gmail.com",
     install_requires=get_requirement("requirements.txt"),
     packages=find_packages()
