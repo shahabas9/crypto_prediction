@@ -1,0 +1,26 @@
+[ 2023-04-30 17:23:07,623 ] 25 root - INFO - initializing the data ingestion method
+[ 2023-04-30 17:23:07,772 ] 28 root - INFO - Dataset read as pandas dataframe
+[ 2023-04-30 17:23:08,894 ] 31 root - INFO - train test split
+[ 2023-04-30 17:23:09,846 ] 35 root - INFO - train test split completed
+[ 2023-04-30 17:23:09,846 ] 36 root - INFO - data ingestion stage is completed
+[ 2023-04-30 17:23:09,849 ] 71 root - INFO - Reading train and test data started
+[ 2023-04-30 17:23:10,005 ] 74 root - INFO - Read train and test completed
+[ 2023-04-30 17:23:10,009 ] 75 root - INFO - Train DataFrame head :
+       id  carat        cut color clarity  depth  table     x     y     z  price
+0   44186   0.70    Premium     D     SI1   62.2   60.0  5.71  5.61  3.52   2721
+1   54578   0.70  Very Good     D     SI1   60.2   59.0  5.72  5.79  3.46   2054
+2   49410   1.13    Premium     F     VS1   61.2   59.0  6.72  6.76  4.12   8709
+3    9210   0.61      Ideal     G     VS2   61.7   56.0  5.44  5.48  3.37   1794
+4  183271   1.52  Very Good     H     VS2   63.1   58.0  7.30  7.24  4.59  10819
+[ 2023-04-30 17:23:10,012 ] 76 root - INFO - Test DataFrame head :
+       id  carat      cut color clarity  depth  table     x     y     z  price
+0  140964   0.43    Ideal     G    VVS1   61.6   55.0  4.85  4.90  3.00   1179
+1   81755   0.57  Premium     E     SI1   61.5   58.0  5.37  5.33  3.29   1567
+2  174627   0.51  Premium     E     VS1   60.3   58.0  5.19  5.24  3.14   1772
+3  103945   2.01    Ideal     H     SI1   60.9   55.0  8.17  8.12  4.96  17569
+4   57034   0.74  Premium     I     SI2   61.8   59.0  5.75  5.79  3.56   1942
+[ 2023-04-30 17:23:10,013 ] 77 root - INFO -  Getting preprocessor object
+[ 2023-04-30 17:23:10,013 ] 25 root - INFO - data transformation initiated
+[ 2023-04-30 17:23:10,013 ] 35 root - INFO - pipeline initiated
+[ 2023-04-30 17:23:10,305 ] 92 root - INFO - Applying preprocessing on train and test data
+[ 2023-04-30 17:23:10,311 ] 103 root - INFO - preprocessor pickle file saved

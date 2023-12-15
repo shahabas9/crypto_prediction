@@ -1,0 +1,7 @@
+[ 2023-05-01 12:19:48,332 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-01 12:19:48,332 ] 186 werkzeug - INFO -  * Debugger PIN: 850-020-224
+[ 2023-05-01 12:19:53,669 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 12:19:53] "GET / HTTP/1.1" 200 -
+[ 2023-05-01 12:19:53,764 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 12:19:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-05-01 12:24:03,573 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 12:24:03] "GET / HTTP/1.1" 200 -
+[ 2023-05-01 12:24:03,660 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 12:24:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-05-01 12:55:42,313 ] 186 werkzeug - INFO -  * Detected change in '/home/shahabas/shahabas/Diamond_price_prediction/app.py', reloading

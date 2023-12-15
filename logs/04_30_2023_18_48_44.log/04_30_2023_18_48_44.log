@@ -1,0 +1,29 @@
+[ 2023-04-30 18:48:45,165 ] 25 root - INFO - initializing the data ingestion method
+[ 2023-04-30 18:48:45,362 ] 28 root - INFO - Dataset read as pandas dataframe
+[ 2023-04-30 18:48:46,378 ] 31 root - INFO - train test split
+[ 2023-04-30 18:48:47,416 ] 35 root - INFO - train test split completed
+[ 2023-04-30 18:48:47,416 ] 36 root - INFO - data ingestion stage is completed
+[ 2023-04-30 18:48:47,420 ] 71 root - INFO - Reading train and test data started
+[ 2023-04-30 18:48:47,583 ] 74 root - INFO - Read train and test completed
+[ 2023-04-30 18:48:47,587 ] 75 root - INFO - Train DataFrame head :
+       id  carat    cut color clarity  depth  table     x     y     z  price
+0  118173   0.90   Good     F     SI1   63.9   58.0  6.09  6.06  3.88   3570
+1  172218   0.52  Ideal     F     VS2   61.8   55.0  5.16  5.19  3.20   1687
+2  120316   0.30  Ideal     F     VS1   62.5   53.0  4.30  4.33  2.70    602
+3    3446   1.24  Ideal     G     VS1   61.4   57.0  6.91  6.85  4.23   8869
+4   33665   0.30  Ideal     I    VVS1   61.5   57.0  4.32  4.34  2.66    552
+[ 2023-04-30 18:48:47,591 ] 76 root - INFO - Test DataFrame head :
+       id  carat      cut color clarity  depth  table     x     y     z  price
+0  145081   0.50    Ideal     F     VS1   60.9   57.0  5.13  5.17  3.14   1728
+1   94590   0.30  Premium     F     VS2   61.4   58.0  4.31  4.33  2.65    573
+2  104082   0.31    Ideal     F     VS2   62.1   56.0  4.38  4.34  2.70    802
+3  128981   0.36  Premium     F     SI1   61.6   60.0  4.55  4.59  2.82    668
+4   87299   1.06    Ideal     H     SI1   62.4   55.0  6.48  6.50  4.06   4853
+[ 2023-04-30 18:48:47,591 ] 77 root - INFO -  Getting preprocessor object
+[ 2023-04-30 18:48:47,591 ] 25 root - INFO - data transformation initiated
+[ 2023-04-30 18:48:47,591 ] 35 root - INFO - pipeline initiated
+[ 2023-04-30 18:48:47,864 ] 92 root - INFO - Applying preprocessing on train and test data
+[ 2023-04-30 18:48:47,870 ] 103 root - INFO - preprocessor pickle file saved
+[ 2023-04-30 18:48:47,872 ] 22 root - INFO - seperating dependant and independant variables from train and test data
+[ 2023-04-30 18:48:47,875 ] 43 root - INFO - Exception occured during model training
+[ 2023-04-30 18:48:47,875 ] 65 root - INFO - Error occcured at model training

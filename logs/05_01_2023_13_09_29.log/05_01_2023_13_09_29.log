@@ -1,0 +1,23 @@
+[ 2023-05-01 13:09:30,245 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-01 13:09:30,246 ] 186 werkzeug - INFO -  * Debugger PIN: 850-020-224
+[ 2023-05-01 13:09:36,064 ] 56 root - INFO - exception occured at loading the object
+[ 2023-05-01 13:09:36,064 ] 27 root - INFO - exception occured at prediction
+[ 2023-05-01 13:09:36,084 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:09:36] "[35m[1mPOST /pred HTTP/1.1[0m" 500 -
+[ 2023-05-01 13:09:36,129 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:09:36] "[36mGET /pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:09:36,130 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:09:36] "[36mGET /pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:09:36,146 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:09:36] "[36mGET /pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:09:36,170 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:09:36] "[36mGET /pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:09:41,665 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:09:41] "GET /pred HTTP/1.1" 200 -
+[ 2023-05-01 13:09:48,387 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:09:48] "[35m[1mPOST /pred HTTP/1.1[0m" 500 -
+[ 2023-05-01 13:09:48,415 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:09:48] "[36mGET /pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:09:48,418 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:09:48] "[36mGET /pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:09:48,442 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:09:48] "[36mGET /pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:09:48,456 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:09:48] "[36mGET /pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:10:16,289 ] 56 root - INFO - exception occured at loading the object
+[ 2023-05-01 13:10:16,290 ] 27 root - INFO - exception occured at prediction
+[ 2023-05-01 13:10:16,315 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:10:16] "[35m[1mPOST /pred HTTP/1.1[0m" 500 -
+[ 2023-05-01 13:10:16,397 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:10:16] "[36mGET /pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:10:16,398 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:10:16] "[36mGET /pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:10:16,415 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:10:16] "[36mGET /pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:10:16,432 ] 186 werkzeug - INFO - 127.0.0.1 - - [01/May/2023 13:10:16] "[36mGET /pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-01 13:11:13,452 ] 186 werkzeug - INFO -  * Detected change in '/home/shahabas/shahabas/Diamond_price_prediction/src/utils.py', reloading
